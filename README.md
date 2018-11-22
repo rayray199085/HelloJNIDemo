@@ -26,5 +26,5 @@ Step7. Create a file named 'jniLibs' under the main file, and copy all the files
                             |--src
                                   |--main
                                          |--jniLibs
-                                         
+                                           
                                          
