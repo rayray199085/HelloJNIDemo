@@ -14,6 +14,10 @@ Step4.1 The method name should be (return value type) + Java_packageName_classNa
         
 Step4.2 Add #include<jni.h> in the c file
 
+step4.3 Use javac HelloJNI.java to generate HelloJNI.class first
+
+step4.4 Then, use javac HelloJNI.java -h . to generate .h file
+
 Step5. Create a Android.mk file with setting information:
 
                   LOCAL_PATH := $(call my-dir)
